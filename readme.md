@@ -10,12 +10,16 @@ This works with public or private repos because we use a [Github Token](https://
 
 The main file [github-sync.gs](github-sync.gs) has insturctions on how to customize the file. 
 
-The main edits will be
+The main edit to the script itself is [Line 51](github-sync.gs#51) where you need to insert the name of the remote script to run. 
 
-### Notes
+Otherwise all other variables should be within the Apps Script Editor variables. 
 
-The script assumes you are using `http://www.mediawiki.org/xml/export-0.11/'  # Example namespace; adjust after printing structure` but it's possible your XML is using a different namespace. 
+You need to create the following variables;
 
-The script prints out the namespace when running and will throw an error if the namespace is incorrect but in the print it should indicate the correct namespace so you can update the namespace in Line 20 [max-word-count.py](max-word-count.py#L20) or [one-pdf.py](one-pdf.py#L20).
-
-[^1]: The XML was generated utilizing [wikiteam3](https://github.com/mediawiki-client-tools/mediawiki-dump-generator)
+`GITHUB_TOKEN` Your personal token
+`GITHUB_USER` The username of the repo owner
+`GITHUB_REPO` The repo name 
+`GITHUB_FILE_PATH` The git local filepath to the remote script, usually remote_script.gs
+The next two variables are used if the remote script has a separate API that requires an API url and key. 
+`api_url`
+`api_key`

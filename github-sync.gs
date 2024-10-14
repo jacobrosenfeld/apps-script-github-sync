@@ -48,7 +48,7 @@ function fetchAndRunScript() {
         const scriptContent = response.getContentText();
         Logger.log('Fetched Script Content: ' + scriptContent);
         eval(scriptContent); // Execute the fetched script
-        getLinks(); // Call the getLinks function from the fetched script
+        functionName(); // Call the function from the fetched script
     } else {
         // Log the error response content
         Logger.log('Error fetching script: ' + response.getContentText());
