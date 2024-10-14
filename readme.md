@@ -19,9 +19,15 @@ Otherwise all other variables should be within the Apps Script Editor variables.
 You need to create the following variables;
 
 `GITHUB_TOKEN` Your personal token
+
 `GITHUB_USER` The username of the repo owner
+
 `GITHUB_REPO` The repo name 
+
 `GITHUB_FILE_PATH` The git local filepath to the remote script, usually remote_script.gs
+
 The next two variables are used if the remote script has a separate API that requires an API url and key. 
+
 `api_url`
+
 `api_key`
