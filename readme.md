@@ -14,7 +14,7 @@ The main file [github-sync.gs](github-sync.gs) has insturctions on how to custom
 
 The main edit to the script itself is [Line 51](github-sync.gs#51) where you need to insert the name of the remote script to run. 
 
-Otherwise all other variables should be within the Apps Script Editor variables. 
+Otherwise all other variables should be within the [Apps Script Editor variables.](https://developers.google.com/apps-script/reference/properties?hl=en) 
 
 You need to create the following variables:
 
