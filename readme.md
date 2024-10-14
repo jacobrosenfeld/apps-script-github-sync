@@ -16,7 +16,7 @@ The main edit to the script itself is [Line 51](github-sync.gs#51) where you nee
 
 Otherwise all other variables should be within the Apps Script Editor variables. 
 
-You need to create the following variables;
+You need to create the following variables:
 
 `GITHUB_TOKEN` Your personal token
 
