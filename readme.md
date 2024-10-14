@@ -6,6 +6,8 @@ This makes it easier to update, share and maintain Google Apps Scripts by keepin
 
 This works with public or private repos because we use a [Github Token](https://github.com/settings/tokens) to pull the repo. 
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M314FOFQ)
+
 ## How to setup
 
 The main file [github-sync.gs](github-sync.gs) has insturctions on how to customize the file. 
